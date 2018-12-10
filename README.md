@@ -7,9 +7,11 @@ a proof-of-concept package of optimal gRNA search tool with user-defined referen
 Quick-Start
 --------
 * Clone git repo
+
 `git clone https://github.com/BMES550-CRISPR/CRISPRandME.git`
 
 * Install required python modules
+
 `conda install --file requirement.conda`
 
 * Run test case
