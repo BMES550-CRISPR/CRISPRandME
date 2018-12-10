@@ -15,6 +15,7 @@ Quick-Start
 `conda install --file requirement.conda`
 
 * Run test case
+
 ` python bwt.py -i ../raw_data/chr22_10k.fasta.gz -q TGCGGAGAGTGTGCGGCTCCAGG -g "['HG01390', 'HG01889', 'HG02455', 'HG02943','HG02982', 'HG03084', 'HG03291', 'HG03514', 'HG03538', 'HG03687', 'HG03950','NA11918', 'NA19209', 'NA19213', 'NA19320', 'NA19380', 'NA19454', 'NA19455','NA19717']"`
 
 `-i: reference genome sequence. 10k bp of chr22 is used for demonstration.`
