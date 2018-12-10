@@ -192,7 +192,7 @@ class BWT():
                 dfSNP = pd.read_csv(handle, sep='\t')
                 dfTmp = dfSNP[(dfSNP['POS']>idx) & (dfSNP['POS']<(idx+len(q)))]
                 dfTmp = dfTmp[dfTmp['ALT'].str.len() ==1].reset_index(drop=True)
-            print("Matched position:%d-%d" % (idx, (idx+len(q))))
+            print("Matched position: %d-%d" % (idx, (idx+len(q))))
 
             return True, dfTmp
         
