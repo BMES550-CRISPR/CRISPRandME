@@ -47,3 +47,5 @@ docs/_build
 # jupyter-crap
 *.ipynb_checkpoints*
 
+# ignore gzip files for now
+#*.gz*
